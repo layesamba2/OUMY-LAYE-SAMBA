@@ -1,0 +1,304 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: arial;
+}
+
+.bande {
+    display: inline-block;
+    background-color: rgb(216, 111, 129);
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    z-index: 200;
+}
+
+.rose {
+    text-decoration: blink;
+    margin: 0px;
+}
+
+
+/*********************************LOGO************************************************************/
+
+.div1 {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin: 0 50px;
+    padding: 50px 0px 50px 0px;
+    z-index: 190;
+}
+
+.div1 img {
+    height: 60px;
+    width: 200px;
+    margin: 0 500px;
+    padding-top: 1px;
+    object-fit: cover;
+}
+
+.tout {
+    margin: auto;
+    position: fixed;
+    z-index: 190;
+    background-color: #fff;
+}
+
+.connexion {
+    color: rgb(233, 18, 54);
+    padding-top: 100px;
+    margin: 900px 0px 0px 0px;
+}
+
+.div2 ul {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin: 0 60px;
+}
+
+.div2 h3 {
+    color: rgb(214, 57, 83);
+}
+
+.div2 h3 :hover {
+    color: rgb(22, 21, 21);
+    font-size: 20px;
+}
+
+.div2 h3 a {
+    color: rgb(214, 57, 83);
+}
+
+.sousmenu {
+    position: absolute;
+    display: none;
+}
+
+.div2 li :hover .sousmenu {
+    display: block;
+}
+
+.text2 {
+    margin-top: 20px;
+    color: rgb(26, 23, 24);
+    font-weight: bold;
+    text-align: center;
+}
+
+.changedisplay img {
+    border-radius: 50%;
+    object-fit: cover;
+    transition: ease-out;
+    width: 100px;
+    font-size: 200px;
+    height: 250px;
+    text-align: center;
+    margin-top: 70px;
+    transition: 3s;
+}
+
+.changedisplay img:hover {
+    transform: scale(0.8);
+}
+
+.changedisplay {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 50%;
+    margin-left: 350px;
+    margin-top: 200px;
+}
+
+.changedisplay a {
+    transition: margin-right 2s;
+}
+
+.position {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.hr {
+    align-items: center;
+    /* active flexbox */
+    display: flex;
+    /* garde le texte centré s’il passe sur plusieurs lignes ou si flexbox n’est pas supporté */
+    text-align: center;
+    margin-top: 30px;
+}
+
+.hr::before,
+.hr::after {
+    border-top: .0625em solid;
+    content: "";
+    flex: 1;
+    margin: 0 .5em;
+}
+
+
+/*********************************VENTE************************************************************/
+
+.PHARMACI {
+    margin-top: 40px;
+    position: absolute;
+    padding-left: 60px;
+    margin-top: 200px;
+}
+
+.aff {
+    margin-top: 30px;
+    position: absolute;
+    padding-left: 1050px;
+    margin-top: 200px;
+}
+
+.affisage {
+    margin: 60px;
+    position: absolute;
+    width: 90%;
+    font-family: Bahnschrift SemiBold;
+    font-size: 20px;
+}
+
+.acci {
+    color: rgb(114, 111, 111);
+    margin-top: 10px;
+}
+
+.mpi {
+    display: flex;
+    margin-top: 200px;
+    text-align: center;
+    width: 100%;
+}
+
+.mpi img {
+    transition: 3s;
+}
+
+.mpi img:hover {
+    transform: scale(2);
+}
+
+.display {
+    display: flex;
+    margin-top: 80px;
+    text-align: center;
+    width: 100%;
+}
+
+.display img {
+    transition: 3s;
+}
+
+.display img:hover {
+    transform: scale(2);
+}
+
+.text1 {
+    margin-top: 20px;
+    color: rgb(199, 107, 122);
+}
+
+.t2 {
+    color: rgb(199, 107, 122);
+}
+
+.bouton {
+    display: inline-block;
+    padding: 15px;
+    margin: 30px;
+    background-color: rgb(223, 81, 105);
+    color: rgb(248, 241, 241);
+    font-weight: bold;
+}
+
+.prix {
+    color: black;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.hovers img {
+    transition: 3s;
+}
+
+.hovers img:hover {
+    transform: scale(0.8);
+}
+
+.prix span {
+    text-decoration: line-through;
+    color: rgb(160, 154, 154);
+}
+
+
+/*********************************icon************************************************************/
+
+.icone {
+    text-align: center;
+    height: 100px;
+    border-radius: 50%;
+    border: 50px;
+    margin: 60px;
+}
+
+.icone span {
+    border-radius: 80px;
+    background-color: rgb(27, 6, 78);
+    padding: 20px;
+    margin: 20px;
+    color: #f2f2f2;
+    font-size: 30px;
+    height: 200px;
+}
+
+.icone span:hover {
+    background: none;
+    color: rgb(85, 33, 204);
+}
+
+.grandicon {
+    margin: 60px;
+}
+
+.grandicon a {
+    height: 200px;
+    width: 200px;
+    border: 50px;
+}
+
+
+/*********************************FIN************************************************************/
+
+.finacceuil {
+    display: flex;
+    background-color: rgb(85, 83, 83);
+    color: #f2f2f2;
+}
+
+.CATEGORI {
+    margin: 40px;
+    height: 300px;
+}
+
+.CATEGORI p {
+    height: 30px;
+    margin: 10px;
+}
+
+.CATEGORI span {
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+.CATEGORI a {
+    color: #fff;
+}

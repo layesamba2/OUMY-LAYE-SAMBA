@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: arial;
+}
+
+.bande {
+    display: inline-block;
+    background-color: rgb(216, 111, 129);
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    z-index: 200;
+}
+
+.rose {
+    text-decoration: blink;
+}
+
+
+/*********************************LOGO************************************************************/
+
+.div1 {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin: 0 50px;
+    padding: 50px 0px 50px 0px;
+}
+
+.div1 img {
+    height: 60px;
+    width: 200px;
+    margin: 0 500px;
+    padding-top: 1px;
+    object-fit: cover;
+}
+
+.tout {
+    margin: auto;
+    position: fixed;
+    z-index: 190;
+    background-color: #fff;
+}
+
+.connexion {
+    color: pink;
+    padding-top: 100px;
+    margin: 900px 0px 0px 0px;
+}
+
+.div2 ul {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin: 0 60px;
+    z-index: 180;
+}
+
+.div2 h3 {
+    color: rgb(214, 57, 83);
+    z-index: 180;
+}
+
+.div2 h3 :hover {
+    color: rgb(22, 21, 21);
+    font-size: 20px;
+}
+
+.div2 h3 a {
+    color: #f34646;
+}
+
+.div2 h3 :hover {
+    color: rgb(22, 21, 21);
+    font-size: 20px;
+}
+
+.sousmenu {
+    position: absolute;
+    display: none;
+}
+
+.div2 li :hover .sousmenu {
+    display: block;
+}
+
+.text2 {
+    margin-top: 20px;
+    color: rgb(255, 254, 254);
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    background-color: rgb(224, 110, 110);
+    padding: 15px;
+}
+
+.text2 :hover {
+    background: none;
+}
+
+.text2 a {
+    color: #fff;
+}
+
+.changedisplay {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-top: 300px;
+    padding: 0px 30px;
+}
+
+.changedisplay a {
+    transition: margin-right 2s;
+}
+
+.position {
+    margin-top: 100px;
+}
+
+.hr {
+    align-items: center;
+    /* active flexbox */
+    display: flex;
+    /* garde le texte centré s’il passe sur plusieurs lignes ou si flexbox n’est pas supporté */
+    text-align: center;
+    margin-top: 30px;
+}
+
+.hr::before,
+.hr::after {
+    border-top: .0625em solid;
+    content: "";
+    flex: 1;
+    margin: 0 .5em;
+}
+
+
+/*********************************VENTE************************************************************/
+
+.PHARMACI {
+    margin-top: 40px;
+    position: absolute;
+    padding-left: 60px;
+    margin-top: 200px;
+}
+
+.aff {
+    margin-top: 30px;
+    position: absolute;
+    padding-left: 1050px;
+    margin-top: 250px;
+}
+
+.affisage {
+    margin: 60px;
+    position: absolute;
+    width: 90%;
+    font-family: Bahnschrift SemiBold;
+    font-size: 20px;
+}
+
+.acc {
+    color: rgb(78, 75, 75);
+    margin: 100px;
+    padding-top: 100px;
+}
